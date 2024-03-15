@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-rahn
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-881/pip-e2e-test-rahn@sha256:038b7f07e4dcb23bbadd1210ae6c740e21f2404263d1d73eaa4ac497ba6af0c7
         name: pip-e2e-test
         ports:
         - containerPort: 8081
