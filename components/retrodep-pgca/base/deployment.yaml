@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: retrodep-pgca
     spec:
       containers:
-      - image: retrodep:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-881/retrodep-pgca@sha256:9aaaad52d69a0be7d86cc53d10477f34d82ad5b8eb1faa362f6f18ec0f11dab8
         name: my-retrodep
         ports:
         - containerPort: 8081
