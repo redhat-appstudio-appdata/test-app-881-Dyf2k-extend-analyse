@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-use-latest-parent-image-jdux
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-881/e2e-tests-use-latest-parent-image-jdux@sha256:d722a13fe7e613a1475f76be913aa3435b6ea1ea5a55e774978bcfbbaf4fc2e9
         imagePullPolicy: Always
         name: container-image
         ports:
